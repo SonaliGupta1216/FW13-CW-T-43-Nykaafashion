@@ -1,0 +1,193 @@
+/* global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.offer {
+    color: #fff;
+    width: 800px;
+    overflow: hidden;
+    font-size: 13px;
+    margin-left: 3.8%;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 28px;
+    height: 24px;
+}
+
+.subIcons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    border: none;
+    height: 100%;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+}
+
+#mobile, #help {
+    height: 60%;
+    margin-top: 5%;
+    transform: rotate(180deg);
+}
+
+.textM {
+    height: 100%;
+    line-height: 33px;
+    vertical-align: top;
+    font-size: 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#help {
+    transform: rotate(0deg);
+    margin-top: 7%;
+    height: 55%;
+    margin-left: 35px;
+}
+
+.nav {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 0px 48px;
+    border-bottom: 1px solid rgb(235, 237, 238);
+}
+
+.menu {
+    display: flex;
+    margin-left: 48px;
+    height: 100%;
+    width: 100%;
+}
+
+.item {
+    text-decoration: none;
+    padding: 0px 18px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(20, 37, 54);
+    cursor: pointer;
+}
+
+.menu2 {
+    display: flex;
+    height: 64px;
+    align-items: center;
+    color: rgb(0, 19, 37);
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.searchBoxDiv {
+    width: 100%;
+    max-width: 370px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.searchBox {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 8px;
+    background-color: rgb(246, 247, 249);
+    border-radius: 2px;
+    height: 40px;
+    position: relative;
+    border-bottom: 2px solid rgba(0, 19, 37, 0.16);
+    transition: border-bottom 0.2s ease 0s;
+}
+
+.searchBoxInner {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border: none;
+    width: 100%;
+}
+
+.searchBoxInner > .input {
+    background-color: rgb(246, 247, 249);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    flex: 1 1 0%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 30px;
+    outline: none;
+    margin-left: 10px;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.accountDiv {
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    margin-left: 24px;
+}
+
+.itemValue {
+    position: absolute;
+    background: rgb(253, 118, 133);
+    color: rgb(255, 255, 255);
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font: 400 1rem / 1.71429rem Cera, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    left: 9px;
+    top: 0px;
+}
+
+.menu > .item:hover {
+    color: #FD7685;
+    border-bottom: 2px solid #FD7685;
+}
+
+.menu > .item:first-child:hover {
+    background-color: #F6F7F9;
+    color: black;
+    border: none;
+}
