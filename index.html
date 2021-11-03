@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!--font lib-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,11 +13,14 @@
       rel="stylesheet"
     />
 
+    <!--Icon lib-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
     <!-- linked css file -->
     <link rel="stylesheet" href="style.css" />
-
-    <!--Linked js file-->
-    <script src="script.js"></script>
 
     <!--title icon-->
     <link
@@ -88,19 +92,19 @@
             <a href="#" class="item" id="Women">
               <span>Women</span>
             </a>
-            <a href="#" class="item">
+            <a href="#" class="item" id="Men">
               <span>Men</span>
             </a>
-            <a href="#" class="item">
+            <a href="#" class="item" id="Kids">
               <span>Kids</span>
             </a>
-            <a href="#" class="item">
+            <a href="#" class="item" id="Home">
               <span>Home</span>
             </a>
-            <a href="#" class="item">
+            <a href="#" class="item" id="Tech">
               <span>Tech</span>
             </a>
-            <div class="item">
+            <div class="item" id="More">
               <span>More</span>
             </div>
           </div>
@@ -159,22 +163,22 @@
             </div>
           </div>
         </div>
-        <!-- <div class="subMenu">
-            <ul type="none">
-              <li>What's New</li>
-              <li>Indian Wear</li>
-              <li>Western Wear</li>
-              <li>Bags</li>
-              <li>Footwear</li>
-              <li>Jewellery</li>
-              <li>Lingrie</li>
-              <li>Sportswear</li>
-              <li>Sleep & Lounge</li>
-              <li>Watches</li>
-              <li>Accessories</li>
-              <li>Tech Accessories</li>
-            </ul>
-          </div> -->
+        <div id="subMenu">
+          <ul type="none">
+            <li>What's New</li>
+            <li>Indian Wear</li>
+            <li>Western Wear</li>
+            <li>Bags</li>
+            <li>Footwear</li>
+            <li>Jewellery</li>
+            <li>Lingrie</li>
+            <li>Sportswear</li>
+            <li>Sleep & Lounge</li>
+            <li>Watches</li>
+            <li>Accessories</li>
+            <li>Tech Accessories</li>
+          </ul>
+        </div>
       </nav>
     </header>
 
@@ -194,6 +198,7 @@
 
       <!--Title: Categories-->
       <img
+        id="title"
         height="120"
         width="100%"
         src="https://images-static.nykaa.com/uploads/tr:w-2380,e-sharpen,/0c52f7b7-3ad3-4b7b-9475-c49f71226066.jpg"
@@ -313,12 +318,158 @@
           </a>
         </div>
       </div>
+
+      <!--scroll Top Button-->
+      <button id="scrollTop">
+        <span class="material-icons"> arrow_upward </span>
+      </button>
+
+      <!--title: Style Forward-->
       <img
+        id="title"
         height="120"
         width="100%"
         src="https://images-static.nykaa.com/uploads/tr:w-2380,e-sharpen,/96897ff3-4f95-4cb2-ab09-e46f17f9e51e.jpg"
         alt=""
       />
+
+      <!--Winter Banner-->
+      <a
+        target="_blank"
+        href="https://www.nykaafashion.com/westernwear/c/3?f=category_filter%3D4497_5262_5_7623_3909_66_155_153_6492_&transaction_id=d2c9eb55c298854d97d08aa95e140508&intcmp=nf-women-dweb,hot-today,1,winter-wardrobe-must-haves"
+      >
+        <img
+          id="banner2"
+          src="https://images-static.nykaa.com/uploads/tr:w-2446,/6e72c04e-448a-42cd-b4ab-774979e4dc17.jpg"
+          height="306px"
+          width="100%"
+        />
+      </a>
+
+      <!--Title: Spotlight-->
+      <img
+        id="title"
+        height="120"
+        width="100%"
+        src="https://images-static.nykaa.com/uploads/tr:w-2380,e-sharpen,/c74bc4d8-aa83-410e-878a-8090959f3d91.jpg"
+        alt=""
+      />
+
+      <!--Spotlight-->
+      <div class="spotLight">
+        <!--item1-->
+        <a
+          target="_blank"
+          href="https://www.nykaafashion.com/designers/pheeta/c/8313?transaction_id=2b4f9d572d6ef8dd3f87f2cbd5c72838&intcmp=nf-women-dweb,in-the-spotlight,1,pheeta&pinned_product_id=2141244"
+          class="card2"
+        >
+          <img
+            src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/a327d6d6-dc4c-4015-b468-0c88a6a3ef8a.jpg"
+            height="216px"
+            width="384px"
+          />
+        </a>
+
+        <!--item2-->
+        <a
+          target="_blank"
+          href="https://www.nykaafashion.com/designers/ambraee/c/3504?transaction_id=4017185d9581b34e2c02a71dd185e90e&intcmp=nf-women-dweb,in-the-spotlight,2,ambraee&pinned_product_id=2894749"
+          class="card2"
+        >
+          <img
+            src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/b8ced7d0-b87b-4d8e-98c5-8e7e434085c4.jpg"
+            height="216px"
+            width="384px"
+          />
+        </a>
+
+        <!--item3-->
+        <a
+          target="_blank"
+          href="https://www.nykaafashion.com/designers/vero-moda/c/4188?transaction_id=d984776d84ab49565783985bd28b3400&intcmp=nf-women-dweb,in-the-spotlight,3,vero-moda&pinned_product_id=1709812"
+          class="card2"
+        >
+          <img
+            src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/78b388d6-3e0b-46c1-a859-3274edb2b909.jpg"
+            height="216px"
+            width="384px"
+          />
+        </a>
+
+        <!--item4-->
+        <a
+          target="_blank"
+          href="https://www.nykaafashion.com/westernwear/c/3?f=brand_filter%3D6269_&transaction_id=8eff3e52081a8dfeac7f4973fd5b7f94&intcmp=nf-women-dweb,in-the-spotlight,4,gap&pinned_product_id=708395"
+          class="card2"
+        >
+          <img
+            src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/ee981fac-7437-489a-9867-75603ec87bb7.jpg"
+            height="216px"
+            width="384px"
+          />
+        </a>
+
+        <!--item5-->
+        <a
+          target="_blank"
+          href="https://www.nykaafashion.com/designers/priyaasi/c/5291?transaction_id=72d9b8645a239308a01f24cd606637ff&intcmp=nf-women-dweb,in-the-spotlight,5,priyaasi&pinned_product_id=2780527"
+          class="card2"
+        >
+          <img
+            src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/81d328bc-92ca-4e16-8c68-6a3a0a5ea6a3.jpg"
+            height="216px"
+            width="384px"
+          />
+        </a>
+
+        <!--item6-->
+        <a
+          target="_blank"
+          href="https://www.nykaafashion.com/designers/truffle-collection/c/7713?f=gender_filter%3D5196_&transaction_id=15502279718d0983365fd61a53de1db9&intcmp=nf-women-dweb,in-the-spotlight,6,truffle-collection&pinned_product_id=3667466"
+          class="card2"
+        >
+          <img
+            src="https://images-static.nykaa.com/uploads/tr:w-390,e-sharpen,/c45e8f08-cd95-401a-9a10-6cdbe9da41e7.jpg"
+            height="216px"
+            width="384px"
+          />
+        </a>
+      </div>
+
+      <div class="banner4">
+        <a href="https://www.nykaafashion.com/women/c/6557?f=new_tags_filter%3Dexpressdelivery_&transaction_id=b2f1c81ed96b611ab31b9233fddaf503&intcmp=nf-women-dweb,sale-strip,1,expressdelivery" class="banner4i">
+        <img
+          src="https://images-static.nykaa.com/uploads/tr:w-1190,e-sharpen,/6a757d91-6acf-4285-ac4c-c15997699fe3.gif"
+          height="288px"
+          width="1200px"
+        />
+      </a>
+      </div>
+
+    <!--Tranding Now-->
+      <a
+        target="_blank"
+        href="https://www.nykaafashion.com/lp/winter-store?pageType=nf-winter-store&transaction_id=0e62a3dc9739bf515836ed0e6dd8b33d&intcmp=nf-women-dweb,trending-now-main-banner,1,winter-store"
+      >
+        <img
+          id="banner2"
+          src="https://images-static.nykaa.com/uploads/tr:w-2526,/71d88e0e-c3ab-47ae-894b-75b1252aea0d.jpg"
+          height="388px"
+          width="100%"
+        />
+      </a>      
+
+      <!--Title: House Of Nykaa-->
+      <img
+        id="title"
+        height="120"
+        width="100%"
+        src="https://images-static.nykaa.com/uploads/tr:w-2380,e-sharpen,/d05442fb-74ea-4042-b76a-519c6d57b93c.jpg"
+        alt=""
+      />
+
     </div>
   </body>
+  <!--Linked js file-->
+  <script src="script.js"></script>
 </html>
